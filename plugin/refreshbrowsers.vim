@@ -11,4 +11,4 @@ function! RefreshBrowsers()
 endfunction
 
 "Refresh browsers when saving HTML, CSS and related files
-autocmd BufWriteCmd *.html,*.haml,*.scss,*.md,*.css,*.less :call RefreshBrowsers()
+autocmd BufWriteCmd *.html,*.erb,*.haml,*.scss,*.md,*.css,*.less :call RefreshBrowsers()
