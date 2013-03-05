@@ -6,7 +6,7 @@ let loaded_refreshbrowsers = 1
 function! RefreshBrowsers()
   if &modified
     write
-    silent !osascript ~/.vim/bundle/refreshbrowsers/scripts/refreshbrowsers.scpt
+    silent !~/.vim/bundle/refreshbrowsers/scripts/refreshbrowsers.sh
   endif
 endfunction
 
